@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+}
+
+p {
+  font-size: 16px;
+  color: #344563;
+}
+
+h2 {
+  color: #172b4d;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.main-content {
+    background-image: url(../img/hsm.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    padding: 0 24px;
+    height: 718px;
+    border-radius: 0 0 0 100px;
+  }
+
+  .main-color {
+    background-color: #f7f7f9;
+  }
+
+  .header-text {
+    margin-top: 114px;
+    width: 327px;
+    height: 150px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+    color: #172b4d;
+  }
+
+  .purple-text1 p {
+    color: #7f8cff;
+    font-weight: 500;
+  }
+
+  .social-list {
+    gap: 20px;
+    align-items: center;
+    list-style: none;
+  }
+
+  .single-work {
+    gap: 24px;
+    padding: 24px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e6;
+    height: fit-content(100%);
+    height: auto;
+  }
+
+  .single-work .experience {
+    gap: 32px;
+  }
+
+  .single-work .experience span {
+    color: #344563;
+    font-weight: 600;
+  }
+  
+  .single-work .experience ul {
+    justify-content: space-between;
+    gap: 32px;
+  }
+  
+  .single-work .experience ul li {
+    color: #7a869a;
+  }
+
+  .skills {
+    list-style: none;
+    gap: 8px;
+  }
+
+  .skills li {
+    padding: 4px 12px;
+    background-color: #ebebff;
+    color: #6070ff;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .btn-c {
+    box-shadow: 0 5px 3px #ccc;
+    text-decoration: none;
+    width: fit-content;
+    border-radius: 12px;
+    padding: 12px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color: #396df2;
+    background-color: #fff;
+    cursor: pointer;
+    transition: 300ms;
+  }
+
+  .btn-c:hover,
+  .btn-c:active {
+    background-color: #396df2;
+    color: #fff;
+  }
+
+
+  
